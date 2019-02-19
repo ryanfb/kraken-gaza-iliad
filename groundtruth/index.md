@@ -3,7 +3,7 @@
 
 ## Instructions
 
- * Pick a non-transcribed page (❌) from the list below
+ * Pick a non-transcribed page (❌) from the list below (you might also check that there are open [pull requests](https://github.com/ryanfb/kraken-gaza-iliad/pulls) for your page)
  * Copy/paste the corresponding lines from [UChicago Perseus](http://artflsrv02.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=GreekFeb19&query=Hom.%20Il.&getid=0)
  * Read lines in image and correct transcription to reflect *diplomatic* ground truth of what's represented in the image
  * When done with a page, click "Download" and make a [Pull Request](https://github.com/ryanfb/kraken-gaza-iliad/pulls) with the output
