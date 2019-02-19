@@ -1,8 +1,22 @@
 ---
 ---
 
- * ❌ [gaza_1_page_00046](gaza_1_page_00046.html)
- * ❌ [gaza_1_page_00048](gaza_1_page_00048.html)
+## Instructions
+
+ * Pick a non-transcribed page (❌) from the list below
+ * Copy/paste the corresponding lines from [UChicago Perseus](http://artflsrv02.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=GreekFeb19&query=Hom.%20Il.&getid=0)
+ * Read lines in image and correct transcription to reflect *diplomatic* ground truth of what's represented in the image
+ * When done with a page, click "Download" and make a [Pull Request](https://github.com/ryanfb/kraken-gaza-iliad/pulls) with the output
+
+## Notes
+
+ * Beginning of each line is usually capitalized
+ * This edition uses [stigma](https://en.wikipedia.org/wiki/Stigma_(letter) for "στ": ϛ
+
+## Index
+
+ * ✅ [gaza_1_page_00046](gaza_1_page_00046.html)
+ * ✅ [gaza_1_page_00048](gaza_1_page_00048.html)
  * ❌ [gaza_1_page_00050](gaza_1_page_00050.html)
  * ❌ [gaza_1_page_00052](gaza_1_page_00052.html)
  * ❌ [gaza_1_page_00054](gaza_1_page_00054.html)
