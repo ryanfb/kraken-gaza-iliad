@@ -6,7 +6,7 @@ This is a project for generating an edition-specific OCR training file for [Krak
 ## Instructions
 
  * Pick a non-transcribed page (❌) from the list below (you might also check that there are no open [pull requests](https://github.com/ryanfb/kraken-gaza-iliad/pulls) for your page)
- * Feel free to open a provisional pull request with the page you're working on (e.g. `gaza_1_page00046`), if you want to avoid any potential duplication of effort. Simply close the pull request if you abandon the work.
+ * Feel free to open a provisional pull request with the page you're working on (e.g. `gaza_1_page_00046`), if you want to avoid any potential duplication of effort. Simply close the pull request if you abandon the work.
  * Copy/paste the corresponding lines from [UChicago Perseus](http://artflsrv02.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=GreekFeb19&query=Hom.%20Il.&getid=0)
  * Read lines in image and correct transcription to reflect *diplomatic* ground truth of what's represented in the image
  * When done with a page, click "Download" and make a [Pull Request](https://github.com/ryanfb/kraken-gaza-iliad/pulls) with the output
