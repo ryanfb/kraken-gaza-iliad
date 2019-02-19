@@ -18,7 +18,7 @@
 
  * ✅ [gaza_1_page_00046](gaza_1_page_00046.html)
  * ✅ [gaza_1_page_00048](gaza_1_page_00048.html)
- * ❌ [gaza_1_page_00050](gaza_1_page_00050.html)
+ * ✅ [gaza_1_page_00050](gaza_1_page_00050.html)
  * ❌ [gaza_1_page_00052](gaza_1_page_00052.html)
  * ❌ [gaza_1_page_00054](gaza_1_page_00054.html)
  * ❌ [gaza_1_page_00056](gaza_1_page_00056.html)
