@@ -1,3 +1,6 @@
+---
+---
+
  * ❌ [gaza_1_page_00046](gaza_1_page_00046.html)
  * ❌ [gaza_1_page_00048](gaza_1_page_00048.html)
  * ❌ [gaza_1_page_00050](gaza_1_page_00050.html)
