@@ -11,7 +11,7 @@
 ## Notes
 
  * Beginning of each line is usually capitalized
- * This edition uses [stigma](https://en.wikipedia.org/wiki/Stigma_(letter) for "στ": ϛ
+ * This edition uses [stigma](https://en.wikipedia.org/wiki/Stigma_(letter)) for "στ": ϛ
  * Iliad book numbers are referred to by capital Greek letters: Α = 1, Η = 7, Ν = 13, Υ = 20
 
 ## Index
