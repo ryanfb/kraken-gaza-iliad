@@ -1,6 +1,8 @@
 ---
 ---
 
+This is a project for generating an edition-specific OCR training file for [Kraken](http://kraken.re/) for Theodorus Gaza's Attic paraphrase of the Iliad. By using the facing pages of the Iliad edition that are printed in the some font, we can quickly generate ground truth which can then (it is hoped) be used to train a model which can accurately OCR the Attic paraphrase.
+
 ## Instructions
 
  * Pick a non-transcribed page (❌) from the list below (you might also check that there are no open [pull requests](https://github.com/ryanfb/kraken-gaza-iliad/pulls) for your page)
