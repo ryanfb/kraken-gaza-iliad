@@ -45,7 +45,7 @@ This is a project for generating an edition-specific OCR training file for [Krak
  * ✅ [gaza_2_page_00034](gaza_2_page_00034.html)
  * ✅ [gaza_2_page_00036](gaza_2_page_00036.html)
  * ✅ [gaza_2_page_00038](gaza_2_page_00038.html)
- * ❌ [gaza_2_page_00040](gaza_2_page_00040.html)
+ * ✅ [gaza_2_page_00040](gaza_2_page_00040.html)
  * ❌ [gaza_2_page_00042](gaza_2_page_00042.html)
  * ❌ [gaza_2_page_00044](gaza_2_page_00044.html)
  * ❌ [gaza_2_page_00046](gaza_2_page_00046.html)
