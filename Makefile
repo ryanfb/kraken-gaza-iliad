@@ -1,12 +1,12 @@
-DOCKER_IMAGE ?= "ryanfb/kraken"
-CUDA_DEVICE ?= "cpu"
-USE_DOCKER ?= "true"
-DOCKER_SHM ?= "256M"
+DOCKER_IMAGE ?= ryanfb/kraken
+CUDA_DEVICE ?= cpu
+USE_DOCKER ?= true
+DOCKER_SHM ?= 256M
 
 ifeq ($(USE_DOCKER),true)
-	DOCKER_PREFIX="docker run --shm-size=$(DOCKER_SHM) -it -v $(shell pwd):/data $(DOCKER_IMAGE)"
+	DOCKER_PREFIX=docker run --shm-size=$(DOCKER_SHM) -it -v $(shell pwd):/data $(DOCKER_IMAGE)
 else
-	DOCKER_PREFIX=""
+	DOCKER_PREFIX=
 endif
 
 all: gaza_best.mlmodel
