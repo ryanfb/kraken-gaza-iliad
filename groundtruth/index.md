@@ -102,7 +102,7 @@ This is a project for generating an edition-specific OCR training file for [Krak
 Transcribing some additional pages of the paraphrase itself may be more time-consuming, but will likely improve the generalization of the OCR training to the rest of the paraphrase pages:
 
  * ✅ [gaza_1_page_00047](gaza_1_page_00047.html)
- * ❌ [gaza_1_page_00049](gaza_1_page_00049.html)
+ * ✅ [gaza_1_page_00049](gaza_1_page_00049.html)
  * ❌ [gaza_1_page_00051](gaza_1_page_00051.html)
  * ❌ [gaza_1_page_00053](gaza_1_page_00053.html)
  * ❌ [gaza_1_page_00055](gaza_1_page_00055.html)
