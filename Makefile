@@ -26,11 +26,11 @@ gazapng.zip:
 	wget 'http://rfbaumann.com/gazapng.zip'
 
 gazapng: gazapng.zip
-	unzip gazapng.zip
+	unzip -o gazapng.zip
 
 ocr: gazapng gaza_best.mlmodel
 	mkdir ocr
-	parallel 'kraken -i {} ocr/{/.}.txt binarize segment ocr --device $(CUDA_DEVICE) -m gaza_best.mlmodel' ::: gazapng/*.png
+	$(DOCKER_PREFIX) parallel 'kraken -i {} ocr/{/.}.txt binarize segment ocr --device $(CUDA_DEVICE) -m gaza_best.mlmodel' ::: gazapng/*.png
 
 clean:
 	rm -rfv extract *.mlmodel
