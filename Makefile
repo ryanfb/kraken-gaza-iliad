@@ -9,6 +9,8 @@ else
 	DOCKER_PREFIX=
 endif
 
+.PHONY: all clean test
+
 all: gaza_best.mlmodel
 
 extract: groundtruth/*.html
@@ -19,6 +21,16 @@ gaza_best.mlmodel: extract
 
 test: gaza_best.mlmodel
 	$(DOCKER_PREFIX) ketos test -m gaza_best.mlmodel extract/*.png
+
+gazapng.zip:
+	wget 'http://rfbaumann.com/gazapng.zip'
+
+gazapng: gazapng.zip
+	unzip gazapng.zip
+
+ocr: gazapng gaza_best.mlmodel
+	mkdir ocr
+	parallel 'kraken -i {} ocr/{/.}.txt binarize segment ocr --device $(CUDA_DEVICE) -m gaza_best.mlmodel' ::: gazapng/*.png
 
 clean:
 	rm -rfv extract *.mlmodel
