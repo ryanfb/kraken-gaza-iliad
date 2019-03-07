@@ -30,7 +30,7 @@ gazapng: gazapng.zip
 
 ocr: gazapng gaza_best.mlmodel
 	mkdir ocr
-	$(DOCKER_PREFIX) parallel --will-cite --progress --bar --eta -u --files 'kraken -i {} ocr/{/.}.txt binarize segment ocr -m gaza_best.mlmodel' ::: gazapng/*.png
+	$(DOCKER_PREFIX) parallel --will-cite --progress --bar --eta -u --files 'kraken --device $(CUDA_DEVICE) -i {} ocr/{/.}.txt binarize segment ocr -m gaza_best.mlmodel' ::: gazapng/*.png
 
 clean:
 	rm -rfv extract *.mlmodel
