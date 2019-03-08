@@ -42,5 +42,9 @@ ocr: lines gaza_best.mlmodel
 	mkdir ocr
 	time $(DOCKER_PREFIX) parallel --will-cite --progress --bar --eta -u $(PARALLEL_ARGS) 'kraken --device $(CUDA_DEVICE) -i {} ocr/{/.}.txt binarize ocr --lines lines/{/.}.json -m gaza_best.mlmodel > /dev/null' ::: gazapng/*.png
 
+hocr: lines gaza_best.mlmodel
+	mkdir hocr
+	time $(DOCKER_PREFIX) parallel --will-cite --progress --bar --eta -u $(PARALLEL_ARGS) 'kraken --device $(CUDA_DEVICE) -i {} hocr/{/.}.txt binarize ocr --lines lines/{/.}.json -m gaza_best.mlmodel -h > /dev/null' ::: gazapng/*.png
+
 clean:
 	rm -rfv extract *.mlmodel
