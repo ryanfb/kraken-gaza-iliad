@@ -95,7 +95,7 @@ This is a project for generating an edition-specific OCR training file for [Krak
  * ❌ [gaza_4_page_00040](gaza_4_page_00040.html)
  * ❌ [gaza_4_page_00042](gaza_4_page_00042.html)
  * ❌ [gaza_4_page_00044](gaza_4_page_00044.html)
- * ❌ [gaza_4_page_00046](gaza_4_page_00046.html)
+ * ✅ [gaza_4_page_00046](gaza_4_page_00046.html)
 
 ## Paraphrase Pages
 
