@@ -170,4 +170,4 @@ Transcribing some additional pages of the paraphrase itself may be more time-con
  * ❌ [gaza_4_page_00041](gaza_4_page_00041.html)
  * ❌ [gaza_4_page_00043](gaza_4_page_00043.html)
  * ❌ [gaza_4_page_00045](gaza_4_page_00045.html)
- * ❌ [gaza_4_page_00047](gaza_4_page_00047.html)
+ * ✅ [gaza_4_page_00047](gaza_4_page_00047.html)
