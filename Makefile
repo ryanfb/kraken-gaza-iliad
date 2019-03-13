@@ -33,10 +33,9 @@ gazalines.zip:
 	wget 'http://rfbaumann.com/gazalines.zip'
 
 lines: gazapng gazalines.zip
-	mkdir lines
 	unzip -o gazalines.zip
 	# Use this instead if you *really* want to regenerate line segmentation:
-	# parallel --will-cite --progress --bar --eta -u -j $(shell nproc) 'kraken -i {} lines/{/.}.json binarize segment > /dev/null' ::: gazapng/*.png
+	# mkdir -p lines && parallel --will-cite --progress --bar --eta -u -j $(shell nproc) 'kraken -i {} lines/{/.}.json binarize segment > /dev/null' ::: gazapng/*.png
 
 ocr: lines gaza_best.mlmodel
 	mkdir ocr
