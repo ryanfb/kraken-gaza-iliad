@@ -21,7 +21,7 @@ gaza_best.mlmodel: extract
 	time $(DOCKER_PREFIX) ketos train --device $(CUDA_DEVICE) --output gaza extract/*.png
 
 test: gaza_best.mlmodel
-	$(DOCKER_PREFIX) ketos test -m gaza_best.mlmodel extract/*.png
+	$(DOCKER_PREFIX) ketos test --device $(CUDA_DEVICE) -m gaza_best.mlmodel extract/*.png
 
 gazapng.zip:
 	wget 'http://rfbaumann.com/gazapng.zip'
