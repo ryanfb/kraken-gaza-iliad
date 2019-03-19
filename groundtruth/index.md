@@ -149,7 +149,7 @@ Transcribing some additional pages of the paraphrase itself may be more time-con
  * ✅ [gaza_3_page_00029](gaza_3_page_00029.html)
  * ✅ [gaza_3_page_00031](gaza_3_page_00031.html)
  * ✅ [gaza_3_page_00033](gaza_3_page_00033.html)
- * ❌ [gaza_3_page_00039](gaza_3_page_00039.html)
+ * ✅ [gaza_3_page_00039](gaza_3_page_00039.html)
  * ❌ [gaza_3_page_00041](gaza_3_page_00041.html)
  * ❌ [gaza_3_page_00043](gaza_3_page_00043.html)
  * ✅ [gaza_3_page_00045](gaza_3_page_00045.html)
