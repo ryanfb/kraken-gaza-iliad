@@ -13,7 +13,7 @@ The following Google Books volumes were used as source data:
 * <http://books.google.com/books?id=vSY-AAAAcAAJ>
 * <http://books.google.com/books?id=0SY-AAAAcAAJ>
 
-Page images were extracted with [`pdfimages`](https://en.wikipedia.org/wiki/Pdfimages), Google logos were discarded, and the pages were automatically renamed.
+Page images were extracted with [`pdfimages`](https://en.wikipedia.org/wiki/Pdfimages), Google logos were discarded, and the pages were automatically renamed. Images are available here: <https://github.com/ryanfb/kraken-gaza-iliad/releases/download/v1.0.0/gazapng.zip>
 
 ## Training
 
