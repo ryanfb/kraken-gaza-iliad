@@ -27,4 +27,4 @@ A trained OCR model is provided in `gaza_best.mlmodel`.
 
 ## OCR Results
 
-OCR results are available in hOCR format in the `hocr` directory.
+OCR results are available in hOCR format in the `hocr` directory. You can also browse the results here: <https://ryanfb.github.io/kraken-gaza-iliad/hocr/>
