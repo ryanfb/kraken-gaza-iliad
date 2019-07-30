@@ -23,8 +23,16 @@ Run `make`, or override defaults with e.g.
 
 ## Trained model
 
-A trained OCR model is provided in `gaza_best.mlmodel`.
+Two trained OCR models are provided:
+
+* `gaza_best_nfd.mlmodel` - trained using NFD normalization (Unicode canonical decomposition, i.e. accents and characters are treated as separate glyphs)
+* `gaza_best_nfc.mlmodel` - trained using NFC normalization (Unicode canonical composition, i.e. accented characters are treated as a single glyph)
+
+Each of these normalization techniques has different accuracy tradeoffs for Ancient Greek. Ideally, we could combine the output of both for greater combined accuracy.
 
 ## OCR Results
 
-OCR results are available in hOCR format in the `hocr` directory. You can also browse the results here: <https://ryanfb.github.io/kraken-gaza-iliad/hocr/>
+OCR results are available in hOCR format in the `hocr-nfd` and `hocr-nfc` directories. You can also browse the results here:
+
+* <https://ryanfb.github.io/kraken-gaza-iliad/hocr-nfd/>
+* <https://ryanfb.github.io/kraken-gaza-iliad/hocr-nfc/>
